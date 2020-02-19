@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+
+<script type="text/javascript">
+
+var currentgrade = 85;
+var finalgrade;
+var examscore;
+
+
+examscore = prompt("What score did you earn on the final exam? (Enter 95 for 95%)");
+
+finalgrade = (currentgrade * 75) + (examscore * 25); 
+                                    
+finalgrade = finalgrade / 100;
+    
+document.write("<p>You earned " + examscore + "% on the final exam. </p>");
+document.write("<p>Your course grade will be " + finalgrade + "%.</p>");
+
+
+</script>
+</head>
+
+<body>
+</body>
+</html>
